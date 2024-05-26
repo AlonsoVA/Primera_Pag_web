@@ -1,0 +1,57 @@
+.Contapp{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.Contapp a{
+    font-size: 30px;
+}
+
+.Cont1{
+    background-color:antiquewhite;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Photoss{
+    background-color:antiquewhite;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.carss{
+    width: 500px;
+    height: 450px;
+    border-radius: 100px;
+}
+
+.cars1{
+    width: 500px;
+    height: 450px;
+    border-radius: 100px;
+}
+
+.instagram{
+    color:blueviolet;
+}
+
+.facebook{
+    color: blue;
+}
+
+.whatsapp{
+    color: green;
+}
+
+.Tit{
+    display: flex;
+    justify-content: center;
+}
