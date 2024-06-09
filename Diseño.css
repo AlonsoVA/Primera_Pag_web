@@ -23,14 +23,15 @@
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
-
 }
 
 .carss{
     width: 500px;
     height: 450px;
     border-radius: 100px;
+    margin: 7px;
 }
 
 .cars1{
@@ -54,4 +55,43 @@
 .Tit{
     display: flex;
     justify-content: center;
+}
+.Text{
+    background-color:antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Text p{
+    display: flex;
+    padding: 9px;
+    text-align: center;
+}
+.trx{
+    width: 450px;
+    height: 380px;
+    border-radius: 10%;
+    padding: 11px;
+}
+.Autor{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.photoautor{
+    border: 2px solid black;
+    width: 500px;
+    height: 450px;
+    border-radius: 10%;
+    display: flex;
+}
+.Autor p{
+    text-align: center;
+}
+.imgg{
+    text-align: center;
 }
