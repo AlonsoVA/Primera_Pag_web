@@ -22,14 +22,16 @@
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
+    gap: 10px;
     display: flex;
-    flex-flow: row wrap;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
 .carss{
-    width: 500px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     border-radius: 100px;
 }
 
@@ -54,4 +56,49 @@
 .Tit{
     display: flex;
     justify-content: center;
+}
+
+.Text{
+    background-color:antiquewhite;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.Text p{
+    font-size: 20px;
+    align-self: center;
+}
+
+.TRX{
+    width: 400px;
+    height: 450px;
+    border-radius: 80px;
+}
+
+.Autor{
+    display: flex;
+    background-color:antiquewhite;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.Autor p{
+    font-size: 20px;
+    align-self: end;
+}
+
+.AV{
+    width: 400px;
+    height: 450px;
+    border-radius: 80px;
+    align-self: flex-start;
 }
